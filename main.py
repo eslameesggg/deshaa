@@ -11,7 +11,7 @@ import time
 from faker import Faker
 from Strip import Payment
 faker = Faker()
-token = "2006223155:AAHVfvfv1UI3hu_lDz_MTCJnsWpPlP7Zs_0" #توكنك
+token = "7444348730:AAHOjZkZzUP-4N3xk53Qy5wooQpfb1ZufdQ" #توكنك
 bot = telebot.TeleBot(token, parse_mode="HTML")
 
 @bot.callback_query_handler(func=lambda call: call.data == 'stop')
