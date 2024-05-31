@@ -6,7 +6,6 @@ from telebot import types
 import random
 import uuid
 import re
-import pycountry
 import time
 from faker import Faker
 from Strip import Payment
